@@ -1,0 +1,9 @@
+README for GIS Sandbox
+
+Goal: Given names of villages, determine random distribution geographically that ensures separation of certain groups without 
+
+h2. Data Sources
+
+* Information about districts: http://www.fao.org/docrep/field/003/AC106E/AC106E08.htm
+* Transportation in Ghana: http://ghanatransnet.org/links/index.html
+* Population Density and Admin. District Names: http://www.statoids.com/ygh.html
