@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="transBluePoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7dff0000</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Building 41</name>
+      <styleUrl>#transBluePoly</styleUrl>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates> 
+-3.230,       6.661, 1000
+-3.142,       6.705, 1000  
+-3.130,       6.690, 1000  
+-3.125,       6.679, 1000  
+-3.120,       6.666, 1000  
+-3.115,       6.665, 1000  
+-3.101,       6.663, 1000  
+-3.086,       6.661, 1000  
+-3.060,       6.625, 1000  
+-3.049,       6.620, 1000  
+-3.025,       6.607, 1000  
+-3.012,       6.592, 1000  
+-3.006,       6.589, 1000  
+-2.999,       6.583, 1000  
+-2.991,       6.577, 1000  
+-2.986,       6.572, 1000  
+-2.976,       6.559, 1000  
+-2.970,       6.552, 1000  
+-2.969,       6.548, 1000  
+-2.966,       6.542, 1000  
+-2.935,       6.529, 1000  
+-2.916,       6.515, 1000  
+-2.911,       6.510, 1000  
+-2.907,       6.505, 1000  
+-2.876,       6.480, 1000  
+-2.865,       6.478, 1000  
+-2.859,       6.478, 1000  
+-2.841,       6.473, 1000  
+-2.831,       6.471, 1000  
+-2.818,       6.457, 1000  
+-2.809,       6.450, 1000  
+-2.793,       6.442, 1000  
+-2.778,       6.438, 1000  
+-2.765,       6.436, 1000  
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
