@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+#make sure this is at least version 3.2.0
+#http://www.crummy.com/software/BeautifulSoup/download/3.x/BeautifulSoup-3.2.0.tar.gz
 
 import urllib
 import urllib2
@@ -6,6 +8,19 @@ from BeautifulSoup import BeautifulSoup
 from threading import Thread
 
 TIMEOUT = 10 # seconds
+
+import re
+
+def _callback(matches):
+    id = matches.group(1)
+    try:
+        return unichr(int(id))
+    except:
+        return id
+
+def decode_unicode_references(data):
+    return re.sub("&#(\d+)(;|(?=\s))", _callback, data)
+
 
 class GoogleMaps(Thread):
     def __init__(self, saddr, daddr):
@@ -29,10 +44,15 @@ class GoogleMaps(Thread):
         while True:
             count += 1
             out = soup.find("tbody", { "id" : "step_0_%d" % (count) })
+            # interesting breaks: ("span", {"class":"dirsegtext"}) ("div", {"id":"sxdist"})
             if not out:
                 break
             else:
-                print out
+                # print out
+                direction_ml = "".join([str(x) for x in out.find("span", {"class":"dirsegtext"}).contents])
+                direction = ''.join(BeautifulSoup(direction_ml).findAll(text=True))
+                distance = ''.join(out.find("div", {"id":"sxdist"}).contents)
+                print direction, decode_unicode_references(distance).strip()
 
     def run(self):
         (url, out) = self._fetch_data(self.saddr, self.daddr)
