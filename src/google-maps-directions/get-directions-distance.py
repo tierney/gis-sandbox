@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 #make sure this is at least version 3.2.0
 #http://www.crummy.com/software/BeautifulSoup/download/3.x/BeautifulSoup-3.2.0.tar.gz
 
@@ -16,6 +17,7 @@ def _callback(matches):
     try:
         return unichr(int(id))
     except:
+        print "AHHH!"
         return id
 
 def decode_unicode_references(data):
@@ -37,10 +39,14 @@ class GoogleMaps(Thread):
 
     def _parse_highlevel(self, soup):
         out = soup.findAll("div", { "class" : "dir-altroute-inner" })
-        return out
+        for elem in out:
+            time, path, distance = [e.contents[0] for e in elem.findAll("div")[1:-1]]
+            break # don't look at alternate routes
+        return time, path, distance
 
     def _parse_steps(self, soup):
         count = -1
+        directions = list()
         while True:
             count += 1
             out = soup.find("tbody", { "id" : "step_0_%d" % (count) })
@@ -49,30 +55,34 @@ class GoogleMaps(Thread):
                 break
             else:
                 # print out
-                direction_ml = "".join([str(x) for x in out.find("span", {"class":"dirsegtext"}).contents])
+                direction_ml_spaces = " ".join([str(x) for x in\
+                                                    out.find("span", {"class":"dirsegtext"}).contents])
+                direction_ml = direction_ml_spaces.replace("  ", " ")
                 direction = ''.join(BeautifulSoup(direction_ml).findAll(text=True))
-                distance = ''.join(out.find("div", {"id":"sxdist"}).contents)
-                print direction, decode_unicode_references(distance).strip()
+                dist_enc = ''.join(out.find("div", {"id":"sxdist"}).contents)
+                dist_dec = dist_enc.replace("&#160;"," ") # decode_unicode_references(dist_enc).strip()
+                dist = dist_dec.strip()
+                # print dist + "\t" + direction
+                directions.append((direction, dist))
+        return directions
 
     def run(self):
         (url, out) = self._fetch_data(self.saddr, self.daddr)
+        print url
         html = "\n".join(out) # clean the html by de-listing it.
         # Use BeautifulSoup to find the html with dist info.
         soup = BeautifulSoup(html)
 
-        self.location_html = self._parse_highlevel(soup)
-        self._parse_steps(soup)
+        time, path, distance = self._parse_highlevel(soup)
+        directions = self._parse_steps(soup)
+
+        # pretty outputs...
+        for ds in directions: print ds
+        print "%s (%s | %s)" % (path, distance, time)
 
 def main():
-    g = GoogleMaps("Accra, Ghana", "Madina, Ghana")
-    g.run()
-    # print g.location_html
-
-    for soup in g.location_html:
-        for div in soup.findAll("div")[:-1]:
-            print " ", div.contents
-            
-        # print soup.find("div", { "class" : "altroute-rcol altroute-info" })
+    GoogleMaps("Accra, Ghana", "Madina, Ghana").run()
+    GoogleMaps("145 SW Salix Terrace, Beaverton, OR", "1925 Eastchester Road, Bronx, NY").run()
 
 if __name__=="__main__":
     main()
