@@ -1,55 +1,51 @@
-Jasikan
-kwamekrom 
-Kajebi
-Hohoe
-Pepeso
-Pampawie
-Dodo
-Amanfrom
+Jasikan, volta, ghana
+Kwamikrom, Jasikan, Volta, Ghana
+Kadjebi, Volta, Ghana
+Hohoe, Volta, Ghana
+# Pepeso # unknown???
+Pampawie, Volta, Ghana
+Dodo, Volta, Ghana
+Amanfrom, Eastern, Ghana
 
+# 1st
+Nkwanta, Volta, Ghana
+Kpasa, Volta, Ghana
 
-Nkwanta District
-Kpasa District
+# 2nd
+Dambai, Volta, Ghana
+Kete-Krachi, Volta, Ghana
 
-2nd
-Dambai District
-Krachi East (Kete Krachi)
-Krachi West (Kete Krachi)
+# 3.
+# Kpandu District
+South Dayi, Volta, Ghana # unspecific
 
+# 4.  
+Ho Municipal, Volta, Ghana
+Abutia, Volta, Ghana
 
-3.
-Kpandu District - 
-South Dayi        -  
+# 5.  South
+Sogakope, South Tonga, Volta, Ghana # Sogakoffe District
+Adi dome, Volta, Ghana
 
-4.  
-Ho Municipality
-Abutia 
+# 6.  
+# Ketu South District
+# Ketu North District
+Ketu, Volta, Ghana
 
-5.  South
-Sogakoffe District
-Adidome District
+# 7. 
+Keta, Volta, Ghana
+Akatsi, Volta, Ghana
 
-6.  
-Ketu South District
-Ketu North District
+# Town name:  Golokwati. South of Hohoe. 6.99989 N  0.43332 E
+Golokwati, Volta, Ghana
+# Hohoe, Volta, Ghana
 
-7. 
-Keta District
-Akatsi District  
+# 3rd place. 
+# Logba Adzakoe
+# 6° 53' 54" N  0° 26' 0" E
+6.89853 N  0.43352 E
 
-
-
-Town name:  Golokwati. South of Hohoe. 6.99989 N  0.43332 E
-
-
-3rd place. 
-Logba Adzakoe
-6° 53' 54" N  0° 26' 0" E
- 6.89853 N  0.43352 E
-
-
-
-Dodi Pepeso
-Ahamso
-Mipeasem
+Dodi, Volta, Ghana # Pepeso
+Ahamso, Brong Ahafo, Ghana
+Mpeasem, Wasa Amenfi East, Western, Ghana # Mipeasem
  

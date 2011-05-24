@@ -1,28 +1,47 @@
 #!/usr/bin/env python
+"""
+Get Directions and Distance from Google Maps
 
-#make sure this is at least version 3.2.0
-#http://www.crummy.com/software/BeautifulSoup/download/3.x/BeautifulSoup-3.2.0.tar.gz
+No command line input yet; however, the code is designed to allow you
+to input a source and destination address. The output will be the HTTP
+request submitted to Google Maps, the directions that Google Maps
+offered for the first set of directions, and a summary of the route
+(some symbolic street name, I suppose) followed by total distance and
+expected time.
 
-import urllib
-import urllib2
-from BeautifulSoup import BeautifulSoup
-from threading import Thread
+Example output:
 
-TIMEOUT = 10 # seconds
+http://maps.google.com/maps?saddr=Accra%2C+Ghana&daddr=Madina%2C+Ghana
+(u'Head northwest on Egypt Rd toward Fourth Ave', u'170 m')
+(u'Turn right onto Gamel Abdul Nasser Ave', u'250 m')
+(u'Turn left onto Castle Road', u'150 m')
+(u'At the traffic circle, take the 1st exit onto Independence Ave', u'1.4 km')
+(u'Continue straight onto Liberation Rd', u'600 m')
+(u'Keep right at the fork', u'450 m')
+(u'Continue straight to stay on Liberation Rd', u'2.4 km')
+(u'Slight right to stay on Liberation Rd', u'650 m')
+(u'Slight right to stay on Liberation Rd', u'2.0 km')
+(u'Continue onto Legon East Rd', u'4.2 km')
+(u'Turn right toward Boundary Rd', u'3.0 km')
+(u'Turn left onto Boundary Rd', u'800 m')
+(u'Turn right', u'140 m')
+Liberation Rd and Legon East Rd (16.3 km | 27 mins)
+
+Additional Dev Notes:
+
+ * make sure BeautifulSoup is at least version 3.2.0 (earlier versions
+   couldn't parse the Google Maps html properly)
+
+ * http://www.crummy.com/software/BeautifulSoup/download/3.x/BeautifulSoup-3.2.0.tar.gz
+"""
 
 import re
+import urllib
+import urllib2
+from threading import Thread
+from BeautifulSoup import BeautifulSoup
 
-def _callback(matches):
-    id = matches.group(1)
-    try:
-        return unichr(int(id))
-    except:
-        print "AHHH!"
-        return id
-
-def decode_unicode_references(data):
-    return re.sub("&#(\d+)(;|(?=\s))", _callback, data)
-
+TIMEOUT = 10 # seconds
 
 class GoogleMaps(Thread):
     def __init__(self, saddr, daddr):
@@ -60,29 +79,31 @@ class GoogleMaps(Thread):
                 direction_ml = direction_ml_spaces.replace("  ", " ")
                 direction = ''.join(BeautifulSoup(direction_ml).findAll(text=True))
                 dist_enc = ''.join(out.find("div", {"id":"sxdist"}).contents)
-                dist_dec = dist_enc.replace("&#160;"," ") # decode_unicode_references(dist_enc).strip()
+                dist_dec = dist_enc.replace("&#160;"," ")
                 dist = dist_dec.strip()
                 # print dist + "\t" + direction
                 directions.append((direction, dist))
         return directions
 
     def run(self):
-        (url, out) = self._fetch_data(self.saddr, self.daddr)
-        print url
+        (self.url, out) = self._fetch_data(self.saddr, self.daddr)
         html = "\n".join(out) # clean the html by de-listing it.
         # Use BeautifulSoup to find the html with dist info.
         soup = BeautifulSoup(html)
 
-        time, path, distance = self._parse_highlevel(soup)
-        directions = self._parse_steps(soup)
+        self.duration, self.path, self.distance = self._parse_highlevel(soup)
+        self.directions = self._parse_steps(soup)
 
-        # pretty outputs...
-        for ds in directions: print ds
-        print "%s (%s | %s)" % (path, distance, time)
 
 def main():
-    GoogleMaps("Accra, Ghana", "Madina, Ghana").run()
-    GoogleMaps("145 SW Salix Terrace, Beaverton, OR", "1925 Eastchester Road, Bronx, NY").run()
+    gm = GoogleMaps("Accra, Ghana", "Madina, Ghana")
+    gm.run()
+
+    print gm.url
+    # pretty outputs...
+    for ds in gm.directions:
+        print ds
+    print "%s (%s | %s)" % (gm.path, gm.distance, gm.duration)
 
 if __name__=="__main__":
     main()
