@@ -1,0 +1,25 @@
+LocationName|Latitude|Longitude
+Jasikan, volta, ghana|7.4108333|0.4669444
+Kwamikrom, Jasikan, Volta, Ghana|7.29485|0.3207299
+Kadjebi, Volta, Ghana|7.5275|0.4758333
+Hohoe, Volta, Ghana|7.1490389|0.4746
+Pampawie, Volta, Ghana|7.8160256|0.5647917
+Dodo, Volta, Ghana|7.8215406|0.5033397
+Amanfrom, Eastern, Ghana|6.1935338|-0.5387812
+Nkwanta, Volta, Ghana|8.253785|0.5163312
+Kpasa, Volta, Ghana|8.4896165|0.3042778
+Dambai, Volta, Ghana|8.0688889|0.1791667
+Kete-Krachi, Volta, Ghana|7.8014452|-0.0513246
+South Dayi, Volta, Ghana |6.6210261|0.1869644
+Ho Municipal, Volta, Ghana|6.6635339|0.5257823
+Abutia, Volta, Ghana|6.5561404|0.4272477
+Sogakope, South Tonga, Volta, Ghana|6.0|0.6
+Adi dome, Volta, Ghana|6.5781373|0.4502368
+Ketu, Volta, Ghana|6.1518017|0.9820668
+Keta, Volta, Ghana|5.910702|0.991867
+Akatsi, Volta, Ghana|6.1301417|0.7987158
+Golokwati, Volta, Ghana|7.0|0.433333
+unnamed|6.89853|0.43352
+Dodi, Volta, Ghana |6.5502877|0.1740815
+Ahamso, Brong Ahafo, Ghana|7.5556631|-1.9367994
+Mpeasem, Wasa Amenfi East, Western, Ghana|5.729031|-1.946209

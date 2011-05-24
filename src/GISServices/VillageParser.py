@@ -22,7 +22,7 @@ class VillageParser(object):
                 villages.append(line)
         return villages
 
-    def run(self):
+    def start(self):
         with open(self.filename) as fh:
             village_lines = [l.strip() for l in fh.readlines()]
 
@@ -30,7 +30,7 @@ class VillageParser(object):
 
 def main():
     vp = VillageParser("../../data/villages.txt")
-    vp.run()
+    vp.start()
     villages = vp.villages
 
     for i, vill in enumerate(villages):
