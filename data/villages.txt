@@ -46,6 +46,6 @@ Golokwati, Volta, Ghana
 6.89853 N  0.43352 E
 
 Dodi, Volta, Ghana # Pepeso
-Ahamso, Brong Ahafo, Ghana
-Mpeasem, Wasa Amenfi East, Western, Ghana # Mipeasem
- 
+# Ahamso, Brong Ahafo, Ghana 
+Mpeasem, Volta, Ghana # Mipeasem
+

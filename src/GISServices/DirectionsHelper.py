@@ -57,6 +57,9 @@ class GoogleMaps(Thread):
         return (url, out.readlines())
 
     def _parse_highlevel(self, soup):
+        # initialize vars
+        time = path = distance = None
+
         out = soup.findAll("div", { "class" : "dir-altroute-inner" })
         for elem in out:
             time, path, distance = [e.contents[0] for e in elem.findAll("div")[1:-1]]
@@ -96,7 +99,8 @@ class GoogleMaps(Thread):
 
 
 def main():
-    gm = GoogleMaps("Accra, Ghana", "Madina, Ghana")
+    # gm = GoogleMaps("Accra, Ghana", "Madina, Ghana")
+    gm = GoogleMaps("7.4108333,0.4669444", "7.29485,0.3207299")
     gm.run()
 
     print gm.url

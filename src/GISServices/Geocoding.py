@@ -58,7 +58,7 @@ class Geocode(Thread):
             self._google_geocode()
 
 def main():
-    human_addrs = ["Dodi, Volta, Ghana",]
+    human_addrs = ["Mpeasem, Volta, Ghana"]
 
     geocoders = [Geocode(human_addr, "google") for human_addr in human_addrs]
     
@@ -69,7 +69,7 @@ def main():
         geocoder.join()
         
     for geocoder in geocoders:
-        print "%s N %s E" % (geocoder.lat, geocoder.lng)
+        print "%s|%s" % (geocoder.lat, geocoder.lng)
 
 if __name__=="__main__":
     main()

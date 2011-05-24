@@ -22,7 +22,7 @@ def main():
         geocoder.join()
         
     for geocoder in geocoders:
-        print "%s|%s N|%s E" % (geocoder.human_addr, geocoder.lat, geocoder.lng)
+        print "%s|%s|%s" % (geocoder.human_addr, geocoder.lat, geocoder.lng)
 
 if __name__=="__main__":
     main()
