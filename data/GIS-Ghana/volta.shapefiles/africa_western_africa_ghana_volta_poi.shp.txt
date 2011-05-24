@@ -1,0 +1,314 @@
+Shapefile Type: Point   # of Shapes: 62
+
+File Bounds: (       0.092,       5.772,0,0)
+         to  (       1.190,       7.156,0,0)
+
+Shape:0 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.832,       5.778, 0, 0)
+      to (       0.832,       5.778, 0, 0)
+     (       0.832,       5.778, 0, 0)  
+
+Shape:1 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.889,       5.792, 0, 0)
+      to (       0.889,       5.792, 0, 0)
+     (       0.889,       5.792, 0, 0)  
+
+Shape:2 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.154,       6.107, 0, 0)
+      to (       1.154,       6.107, 0, 0)
+     (       1.154,       6.107, 0, 0)  
+
+Shape:3 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.163,       6.112, 0, 0)
+      to (       1.163,       6.112, 0, 0)
+     (       1.163,       6.112, 0, 0)  
+
+Shape:4 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.163,       6.113, 0, 0)
+      to (       1.163,       6.113, 0, 0)
+     (       1.163,       6.113, 0, 0)  
+
+Shape:5 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.177,       6.119, 0, 0)
+      to (       1.177,       6.119, 0, 0)
+     (       1.177,       6.119, 0, 0)  
+
+Shape:6 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.178,       6.119, 0, 0)
+      to (       1.178,       6.119, 0, 0)
+     (       1.178,       6.119, 0, 0)  
+
+Shape:7 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.189,       6.118, 0, 0)
+      to (       1.189,       6.118, 0, 0)
+     (       1.189,       6.118, 0, 0)  
+
+Shape:8 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.433,       6.853, 0, 0)
+      to (       0.433,       6.853, 0, 0)
+     (       0.433,       6.853, 0, 0)  
+
+Shape:9 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.472,       6.620, 0, 0)
+      to (       0.472,       6.620, 0, 0)
+     (       0.472,       6.620, 0, 0)  
+
+Shape:10 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.476,       7.153, 0, 0)
+      to (       0.476,       7.153, 0, 0)
+     (       0.476,       7.153, 0, 0)  
+
+Shape:11 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.476,       7.156, 0, 0)
+      to (       0.476,       7.156, 0, 0)
+     (       0.476,       7.156, 0, 0)  
+
+Shape:12 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.769,       5.775, 0, 0)
+      to (       0.769,       5.775, 0, 0)
+     (       0.769,       5.775, 0, 0)  
+
+Shape:13 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.771,       5.772, 0, 0)
+      to (       0.771,       5.772, 0, 0)
+     (       0.771,       5.772, 0, 0)  
+
+Shape:14 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.826,       5.779, 0, 0)
+      to (       0.826,       5.779, 0, 0)
+     (       0.826,       5.779, 0, 0)  
+
+Shape:15 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.827,       5.780, 0, 0)
+      to (       0.827,       5.780, 0, 0)
+     (       0.827,       5.780, 0, 0)  
+
+Shape:16 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.839,       5.781, 0, 0)
+      to (       0.839,       5.781, 0, 0)
+     (       0.839,       5.781, 0, 0)  
+
+Shape:17 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.842,       5.781, 0, 0)
+      to (       0.842,       5.781, 0, 0)
+     (       0.842,       5.781, 0, 0)  
+
+Shape:18 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.877,       5.791, 0, 0)
+      to (       0.877,       5.791, 0, 0)
+     (       0.877,       5.791, 0, 0)  
+
+Shape:19 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.885,       5.792, 0, 0)
+      to (       0.885,       5.792, 0, 0)
+     (       0.885,       5.792, 0, 0)  
+
+Shape:20 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.887,       5.793, 0, 0)
+      to (       0.887,       5.793, 0, 0)
+     (       0.887,       5.793, 0, 0)  
+
+Shape:21 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.891,       5.793, 0, 0)
+      to (       0.891,       5.793, 0, 0)
+     (       0.891,       5.793, 0, 0)  
+
+Shape:22 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.894,       5.793, 0, 0)
+      to (       0.894,       5.793, 0, 0)
+     (       0.894,       5.793, 0, 0)  
+
+Shape:23 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.900,       5.793, 0, 0)
+      to (       0.900,       5.793, 0, 0)
+     (       0.900,       5.793, 0, 0)  
+
+Shape:24 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.930,       5.807, 0, 0)
+      to (       0.930,       5.807, 0, 0)
+     (       0.930,       5.807, 0, 0)  
+
+Shape:25 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.953,       5.830, 0, 0)
+      to (       0.953,       5.830, 0, 0)
+     (       0.953,       5.830, 0, 0)  
+
+Shape:26 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.953,       5.833, 0, 0)
+      to (       0.953,       5.833, 0, 0)
+     (       0.953,       5.833, 0, 0)  
+
+Shape:27 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.982,       5.878, 0, 0)
+      to (       0.982,       5.878, 0, 0)
+     (       0.982,       5.878, 0, 0)  
+
+Shape:28 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.984,       5.891, 0, 0)
+      to (       0.984,       5.891, 0, 0)
+     (       0.984,       5.891, 0, 0)  
+
+Shape:29 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.988,       5.896, 0, 0)
+      to (       0.988,       5.896, 0, 0)
+     (       0.988,       5.896, 0, 0)  
+
+Shape:30 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.988,       5.901, 0, 0)
+      to (       0.988,       5.901, 0, 0)
+     (       0.988,       5.901, 0, 0)  
+
+Shape:31 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.042,       6.001, 0, 0)
+      to (       1.042,       6.001, 0, 0)
+     (       1.042,       6.001, 0, 0)  
+
+Shape:32 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.048,       6.011, 0, 0)
+      to (       1.048,       6.011, 0, 0)
+     (       1.048,       6.011, 0, 0)  
+
+Shape:33 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.056,       6.020, 0, 0)
+      to (       1.056,       6.020, 0, 0)
+     (       1.056,       6.020, 0, 0)  
+
+Shape:34 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.116,       6.075, 0, 0)
+      to (       1.116,       6.075, 0, 0)
+     (       1.116,       6.075, 0, 0)  
+
+Shape:35 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.822,       5.776, 0, 0)
+      to (       0.822,       5.776, 0, 0)
+     (       0.822,       5.776, 0, 0)  
+
+Shape:36 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.973,       5.850, 0, 0)
+      to (       0.973,       5.850, 0, 0)
+     (       0.973,       5.850, 0, 0)  
+
+Shape:37 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.983,       5.888, 0, 0)
+      to (       0.983,       5.888, 0, 0)
+     (       0.983,       5.888, 0, 0)  
+
+Shape:38 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.169,       6.115, 0, 0)
+      to (       1.169,       6.115, 0, 0)
+     (       1.169,       6.115, 0, 0)  
+
+Shape:39 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.092,       6.245, 0, 0)
+      to (       0.092,       6.245, 0, 0)
+     (       0.092,       6.245, 0, 0)  
+
+Shape:40 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.434,       6.849, 0, 0)
+      to (       0.434,       6.849, 0, 0)
+     (       0.434,       6.849, 0, 0)  
+
+Shape:41 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.464,       7.144, 0, 0)
+      to (       0.464,       7.144, 0, 0)
+     (       0.464,       7.144, 0, 0)  
+
+Shape:42 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.477,       7.150, 0, 0)
+      to (       0.477,       7.150, 0, 0)
+     (       0.477,       7.150, 0, 0)  
+
+Shape:43 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.586,       7.117, 0, 0)
+      to (       0.586,       7.117, 0, 0)
+     (       0.586,       7.117, 0, 0)  
+
+Shape:44 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.589,       7.116, 0, 0)
+      to (       0.589,       7.116, 0, 0)
+     (       0.589,       7.116, 0, 0)  
+
+Shape:45 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.756,       5.773, 0, 0)
+      to (       0.756,       5.773, 0, 0)
+     (       0.756,       5.773, 0, 0)  
+
+Shape:46 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.851,       5.784, 0, 0)
+      to (       0.851,       5.784, 0, 0)
+     (       0.851,       5.784, 0, 0)  
+
+Shape:47 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.863,       5.789, 0, 0)
+      to (       0.863,       5.789, 0, 0)
+     (       0.863,       5.789, 0, 0)  
+
+Shape:48 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.877,       5.791, 0, 0)
+      to (       0.877,       5.791, 0, 0)
+     (       0.877,       5.791, 0, 0)  
+
+Shape:49 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.891,       5.794, 0, 0)
+      to (       0.891,       5.794, 0, 0)
+     (       0.891,       5.794, 0, 0)  
+
+Shape:50 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.477,       7.155, 0, 0)
+      to (       0.477,       7.155, 0, 0)
+     (       0.477,       7.155, 0, 0)  
+
+Shape:51 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.897,       5.794, 0, 0)
+      to (       0.897,       5.794, 0, 0)
+     (       0.897,       5.794, 0, 0)  
+
+Shape:52 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.984,       5.891, 0, 0)
+      to (       0.984,       5.891, 0, 0)
+     (       0.984,       5.891, 0, 0)  
+
+Shape:53 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.146,       6.100, 0, 0)
+      to (       1.146,       6.100, 0, 0)
+     (       1.146,       6.100, 0, 0)  
+
+Shape:54 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.190,       6.118, 0, 0)
+      to (       1.190,       6.118, 0, 0)
+     (       1.190,       6.118, 0, 0)  
+
+Shape:55 (Point)  nVertices=1, nParts=0
+  Bounds:(       1.190,       6.118, 0, 0)
+      to (       1.190,       6.118, 0, 0)
+     (       1.190,       6.118, 0, 0)  
+
+Shape:56 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.436,       6.847, 0, 0)
+      to (       0.436,       6.847, 0, 0)
+     (       0.436,       6.847, 0, 0)  
+
+Shape:57 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.450,       6.510, 0, 0)
+      to (       0.450,       6.510, 0, 0)
+     (       0.450,       6.510, 0, 0)  
+
+Shape:58 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.451,       6.855, 0, 0)
+      to (       0.451,       6.855, 0, 0)
+     (       0.451,       6.855, 0, 0)  
+
+Shape:59 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.888,       5.792, 0, 0)
+      to (       0.888,       5.792, 0, 0)
+     (       0.888,       5.792, 0, 0)  
+
+Shape:60 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.897,       5.796, 0, 0)
+      to (       0.897,       5.796, 0, 0)
+     (       0.897,       5.796, 0, 0)  
+
+Shape:61 (Point)  nVertices=1, nParts=0
+  Bounds:(       0.981,       5.880, 0, 0)
+      to (       0.981,       5.880, 0, 0)
+     (       0.981,       5.880, 0, 0)  
