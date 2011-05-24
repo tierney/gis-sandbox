@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import json
 from DirectionsHelper import GoogleMaps
 
 # all subsets
@@ -51,16 +52,19 @@ class AllPairs(object):
         self._read_loc_data()
         self._generate_pairs()
 
-        out = list()
-        for v1, v2 in self.all_pairs:
-            gm = GoogleMaps(self._format_latlng(v1),
-                            self._format_latlng(v2))
-            gm.run()
-            pout = format_output([v1, v2, gm.url, gm.path,
-                                 gm.distance, gm.duration,
-                                 gm.directions])
-            print pout
-            out.append(pout)
+        with open("all_pairs.txt","w") as fh:
+            # gms = [GoogleMaps(self._format_latlng(v1), self._format_latlng(v2)) for v1,v2 in self.all_pairs]
+            
+            for v1, v2 in self.all_pairs:
+                gm = GoogleMaps(self._format_latlng(v1),
+                                self._format_latlng(v2))
+                gm.run()
+                pout = format_output([v1, v2, gm.url, gm.path,
+                                     gm.distance, gm.duration,
+                                     json.dumps(gm.directions)])
+                print pout
+                fh.write(pout + "\n")
+                fh.flush()
         
 ap = AllPairs()
 ap.start()
