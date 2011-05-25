@@ -54,7 +54,6 @@ class AllPairs(object):
 
         with open("all_pairs.txt","w") as fh:
             # gms = [GoogleMaps(self._format_latlng(v1), self._format_latlng(v2)) for v1,v2 in self.all_pairs]
-            
             for v1, v2 in self.all_pairs:
                 gm = GoogleMaps(self._format_latlng(v1),
                                 self._format_latlng(v2))
