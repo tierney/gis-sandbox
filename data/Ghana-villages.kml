@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="red">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="blue">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+</Icon>
+</IconStyle>
+</Style>
+
+<Placemark>
+<name>Jasikan</name>
+<description>Jasikan, Volta, Ghana.</description>
+<styleUrl>#blue</styleUrl>
+<Point>
+<coordinates>0.4669444,7.4108333</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Kwamikrom, Jasikan</name>
+<description>Kwamikrom, Jasikan, Volta, Ghana.</description>
+<styleUrl>#red</styleUrl>
+<Point>
+<coordinates>0.3207299,7.29485</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Kadjebi</name>
+<description>Kadjebi, Volta, Ghana.</description>
+<styleUrl>#blue</styleUrl>
+<Point>
+<coordinates>0.4758333,7.5275</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Hohoe</name>
+<description>Hohoe, Volta, Ghana.</description>
+<styleUrl>#red</styleUrl>
+<Point>
+<coordinates>0.4746,7.1490389</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Pampawie</name>
+<description>Pampawie, Volta, Ghana.</description>
+<styleUrl>#blue</styleUrl>
+<Point>
+<coordinates>0.5647917,7.8160256</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Dodo</name>
+<description>Dodo, Volta, Ghana.</description>
+<styleUrl>#red</styleUrl>
+<Point>
+<coordinates>0.5033397,7.8215406</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Amanfrom, Eastern, Ghana</name>
+<description>Amanfrom, Eastern, Ghana.</description>
+<styleUrl>#blue</styleUrl>
+<Point>
+<coordinates>-0.5387812,6.1935338</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Nkwanta</name>
+<description>Nkwanta, Volta, Ghana.</description>
+<styleUrl>#red</styleUrl>
+<Point>
+<coordinates>0.5163312,8.253785</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Kpasa</name>
+<description>Kpasa, Volta, Ghana.</description>
+<styleUrl>#blue</styleUrl>
+<Point>
+<coordinates>0.3042778,8.4896165</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Dambai</name>
+<description>Dambai, Volta, Ghana.</description>
+<styleUrl>#red</styleUrl>
+<Point>
+<coordinates>0.1791667,8.0688889</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Kete-Krachi</name>
+<description>Kete-Krachi, Volta, Ghana.</description>
+<styleUrl>#blue</styleUrl>
+<Point>
+<coordinates>-0.0513246,7.8014452</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>South Dayi </name>
+<description>South Dayi, Volta, Ghana .</description>
+<styleUrl>#red</styleUrl>
+<Point>
+<coordinates>0.1869644,6.6210261</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Ho Municipal</name>
+<description>Ho Municipal, Volta, Ghana.</description>
+<styleUrl>#blue</styleUrl>
+<Point>
+<coordinates>0.5257823,6.6635339</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Abutia</name>
+<description>Abutia, Volta, Ghana.</description>
+<styleUrl>#red</styleUrl>
+<Point>
+<coordinates>0.4272477,6.5561404</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Sogakope, South Tonga</name>
+<description>Sogakope, South Tonga, Volta, Ghana.</description>
+<styleUrl>#blue</styleUrl>
+<Point>
+<coordinates>0.6,6.0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Adi dome</name>
+<description>Adi dome, Volta, Ghana.</description>
+<styleUrl>#red</styleUrl>
+<Point>
+<coordinates>0.4502368,6.5781373</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Ketu</name>
+<description>Ketu, Volta, Ghana.</description>
+<styleUrl>#blue</styleUrl>
+<Point>
+<coordinates>0.9820668,6.1518017</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Keta</name>
+<description>Keta, Volta, Ghana.</description>
+<styleUrl>#red</styleUrl>
+<Point>
+<coordinates>0.991867,5.910702</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Akatsi</name>
+<description>Akatsi, Volta, Ghana.</description>
+<styleUrl>#blue</styleUrl>
+<Point>
+<coordinates>0.7987158,6.1301417</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Golokwati</name>
+<description>Golokwati, Volta, Ghana.</description>
+<styleUrl>#red</styleUrl>
+<Point>
+<coordinates>0.433333,7.0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>unnamed</name>
+<description>unnamed.</description>
+<styleUrl>#blue</styleUrl>
+<Point>
+<coordinates>0.43352,6.89853</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Dodi </name>
+<description>Dodi, Volta, Ghana .</description>
+<styleUrl>#red</styleUrl>
+<Point>
+<coordinates>0.1740815,6.5502877</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Mpeasem</name>
+<description>Mpeasem, Volta, Ghana.</description>
+<styleUrl>#blue</styleUrl>
+<Point>
+<coordinates>0.477762,7.236888</coordinates>
+</Point>
+</Placemark>
+
+</Document>
+</kml>

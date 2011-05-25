@@ -1,9 +1,9 @@
 README for GIS Sandbox
 
-Goal: Given names of villages, determine random distribution
+*Goal*: Given names of villages, determine random distribution
 geographically that ensures separation of certain groups without
 
-h2. Data Sources
+*Data Sources*
 
 * Information about districts:
   http://www.fao.org/docrep/field/003/AC106E/AC106E08.htm
@@ -13,7 +13,7 @@ h2. Data Sources
 * Population Density and Admin. District Names:
   http://www.statoids.com/ygh.html
 
-h2. Closeness Metric Considerations
+*Closeness Metric Considerations*
 
 * Using panoramio. We learn the number of available images near a
   lat/long coordinate. Can these data be used to predict the
@@ -21,6 +21,5 @@ h2. Closeness Metric Considerations
   submissions and infer their paths and therefore commonly traversed
   routes? (Is tourism related to economic networks?)
   
-** http://www.panoramio.com/api/widget/api.html#request
+ * http://www.panoramio.com/api/widget/api.html#request
 
-* 
